@@ -16,4 +16,4 @@ It is a similar to a dictionary attack.
 * https://md5decrypt.net/ is a large publicly available rainbow table
 * `dragon` <-> `8621ffdbc5698829397d97767ac13db3` 
 * Go to `/admin`
-* Enter username `root` and password `dragon`
+* Enter the common username `admin` with the password `dragon`
