@@ -18,9 +18,9 @@ Disallow: /.hidden
 hash
 * Since two equal string hashed with MD5 always give the same hash, it can be 
 retrieved thank to a rainbow table storing strings and their corresponding MD5 
-hash.
-It is a similar to a dictionaray attack.
-* `https://md5decrypt.net/` is a large publicly available rainbow table
+hash. It is a similar to a dictionaray attack.
+* Go to https://md5hashing.net/hash/md5/8621ffdbc5698829397d97767ac13db3
+* It is a large publicly available rainbow table
 * `8621ffdbc5698829397d97767ac13db3` <-> `dragon`
 * Go to `/admin`
 * Enter the username `root` with the password `dragon` to access the flag
@@ -32,7 +32,7 @@ those files from webcrawlers.
  
 ## Fix
 * Don't let sensitive files in the web root directory
-* Don't expose sensitive information in robots.txt
+* Don't leave clues in robots.txt
 
 ## Reference
 https://www.softscheck.com/en/practical-tips-for-owasp-top-10-2017-7-insufficient-attack-protection/#fakerobotstxt
