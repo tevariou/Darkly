@@ -1,4 +1,4 @@
-# Unvalidated form input
+# Unvalidated survey input
 
 ## Vulnerability
 * Go to `survey` category

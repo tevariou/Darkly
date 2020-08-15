@@ -1,4 +1,4 @@
-# Forged headers
+# Spoofing headers
 
 ## Vulnerability 
 * Run `sitemap` script showing available links in the landing page
